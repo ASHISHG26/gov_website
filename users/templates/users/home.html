@@ -1,0 +1,21 @@
+<style>
+    label,
+    input {
+        display: block;
+    }
+
+    span.helptext {
+        display: none;
+    }
+</style>
+
+<h1>
+    Welcome
+    <a href="{% url 'login' %}">Login</a>
+    <a href="{% url 'register' %}">Register</a>
+</h1>
+<h1>
+    Welcome to Government portal website
+</h1>
+{% block content %}
+{% endblock %}
